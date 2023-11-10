@@ -5,4 +5,4 @@
 - Michael Daniels
 
 # Attendance
-(attendance.md) 
+[Attendance Link](attendance.md)
