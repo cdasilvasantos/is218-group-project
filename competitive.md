@@ -2,9 +2,9 @@
 Archetype and methods of Persuasion for 3 competitors of our business
 
 
-    1. Company A : The Capital Grille
-            1. Archetype:
-            2. Methods of Persuasion:
+   # Company A : The Capital Grille
+           By aligning with The Ruler archetype, a restaurant like The Capital Grille seeks to attract customers who appreciate opulence, exclusivity, and a superior culinary experience. The methods of persuasion focus on conveying a sense of prestige, culinary mastery, personalized service, and creating memorable dining events.
+           
     2. Company B : Fogo de Chao
             1. Archetype:
             2. Methods of Persuasion:
