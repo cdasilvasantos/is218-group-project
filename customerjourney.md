@@ -38,10 +38,6 @@
 
 ## Action
 
-- **Online Ordering:**
-  - Seamless online ordering system for takeout or delivery, extending the upscale dining experience to the customer's home.
-  - Promotions for online orders to encourage repeat business.
-
 - **Promotions:**
   - Continuous engagement through personalized promotions for loyal customers.
   - Encourage patrons to share their experiences on social media, creating a cycle of awareness for new potential customers.
