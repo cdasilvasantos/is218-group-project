@@ -7,6 +7,8 @@
 ## Attendance
 [Attendance 📅](attendance.md)
 
+# Luxcore (the name of the business)
+
 ## Competitive Analysis
 [Competitive Analysis 🕵️‍♀️](competitive.md)
 
