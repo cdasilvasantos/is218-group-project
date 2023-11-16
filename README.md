@@ -1,23 +1,23 @@
 # IS218/003 Group Project
 
-# Team Members
-- Chiara daSilva Santos
-- Michael Daniels
+## Team Members
+- **Chiara daSilva Santos** 🌟
+- **Michael Daniels** 🌟
 
-# Attendance
-[Attendance Link](attendance.md)
+## Attendance
+[Attendance 📅](attendance.md)
 
-### Competitve Analysis
-[Competive Analysis Link](competitive.md)
+## Competitive Analysis
+[Competitive Analysis 🕵️‍♀️](competitive.md)
 
-### SWOT Analysis 
-[SWOT Analysis Link](swot.md)
+## SWOT Analysis 
+[SWOT Analysis 🔄](swot.md)
 
-### Persona
-[Persona Link](persona.md)
+## Persona
+[Persona 👥](persona.md)
 
-### Customer Journey
-[Customer Journey Link](customerjourney.md)
+## Customer Journey
+[Customer Journey 🛣️](customerjourney.md)
 
-### User Stories
-[User Stories Link](userstories.md)
+## User Stories
+[User Stories 📖](userstories.md)
