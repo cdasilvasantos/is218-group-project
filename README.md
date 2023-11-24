@@ -4,7 +4,6 @@
 - **Chiara daSilva Santos** 🌟
 - **Michael Daniels** 🌟
 
-## Attendance
 [Attendance 📅](attendance.md)
 
 # Luxcore (the name of the business)
