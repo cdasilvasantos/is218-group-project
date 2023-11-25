@@ -9,3 +9,5 @@
 # Luxcore (the name of the business)
 
 ## [Final Business Analysis - Due November 17 📊](analysis.md)
+
+## [Milestone Figma Design - Due November 27🎨](figma.md)
