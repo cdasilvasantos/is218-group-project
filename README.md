@@ -9,7 +9,7 @@
 # Luxcore
 
 ## Final Business Analysis - Due November 17 💡
-- [Analysis 📊](files/analysis.mdanalysis.md)
+- [Analysis 📊](files/analysis.md)
 
 ## Milestone ~ Figma and User Stories - Due November 27💡
 - [Figma Designs 🎨](files/figma.md)
