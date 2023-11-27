@@ -58,4 +58,25 @@ Marcus is a successful tech entrepreneur based in the innovation hub of San Fran
 - **Busy Schedule:** Marcus's entrepreneurial endeavors keep him busy, making it challenging to find dining experiences that align with his schedule. He values restaurants that offer flexibility and efficiency.
 - **Tech-Driven Dining:** While Marcus appreciates technological integration, he also faces challenges in finding restaurants that strike the right balance, ensuring that technology enhances rather than detracts from the dining experience.
 
+# Persona: Olivia Harper, Discerning Gourmet
+
+## Demographics
+- **Age:** 35
+- **Gender:** Female
+- **Occupation:** Creative Director at a Marketing Firm
+- **Location:** New York City, New York
+- **Income:** $120,000 per year
+
+## Background
+Olivia is an accomplished creative director working in the fast-paced marketing industry in the heart of New York City. Her career demands a constant flow of creativity, and she is renowned for her innovative campaigns. Outside of work, Olivia enjoys exploring the vibrant culinary scene of the city, attending art exhibitions, and traveling to experience diverse cuisines around the world.
+
+## Goals
+- **Michelin Dining Experience:** Olivia seeks dining experiences that go beyond the ordinary. She is drawn to Michelin-starred restaurants that offer exceptional culinary craftsmanship and a unique atmosphere.
+- **Culinary Exploration:** With a passion for fine dining, Olivia is always on the lookout for restaurants that push the boundaries of flavor, presentation, and innovation.
+- **Exclusivity:** Olivia values exclusive and intimate dining experiences that make her feel like she's part of something special.
+
+## Challenges
+- **Time Constraints:** Balancing a demanding career with a desire for exquisite dining experiences can be challenging. Olivia seeks restaurants that can deliver exceptional meals without compromising efficiency.
+- **Discovering Hidden Gems:** While Olivia enjoys the renowned Michelin-starred establishments, she also craves discovering hidden culinary gems that offer a distinctive and memorable experience.
+
 
