@@ -6,6 +6,9 @@
 ## SWOT Analysis 
 [SWOT Analysis 🔄](swot.md)
 
+## Sales Funnel
+[Sales Funnel](salesFunnel.md)
+
 ## Persona
 [Persona 👥](persona.md)
 
