@@ -36,3 +36,26 @@ Emily is a passionate travel blogger and food critic based in the vibrant city o
 - **Budget Constraints:** Despite her love for fine dining, Emily faces budget constraints as her income is variable. She seeks restaurants that offer value for money while still delivering exceptional culinary experiences.
 - **Balancing Health and Indulgence:** Given her frequent dining experiences, Emily faces the challenge of maintaining a balance between indulgence and maintaining a healthy lifestyle. She looks for restaurants that provide diverse menu options catering to various dietary preferences.
 
+
+# Persona: Marcus Rodriguez, Luxury Enthusiast
+
+## Demographics
+- **Age:** 42
+- **Gender:** Male
+- **Occupation:** Tech Entrepreneur
+- **Location:** San Francisco, California
+- **Income:** $300,000 per year
+
+## Background
+Marcus is a successful tech entrepreneur based in the innovation hub of San Francisco. Known for his innovative approach to business, Marcus has a keen interest in cutting-edge technologies and luxurious experiences. Outside of work, Marcus enjoys collecting rare wines, attending high-profile tech events, and exploring the upscale lifestyle offerings in the city.
+
+## Goals
+- **Exclusive Dining:** Marcus seeks exclusive dining experiences that combine exquisite cuisine with a luxurious ambiance. He values Michelin-starred restaurants for their attention to detail and commitment to culinary excellence.
+- **Technological Integration:** Being tech-savvy, Marcus appreciates restaurants that integrate technology seamlessly, from online reservations to innovative menu presentations.
+- **Networking Opportunities:** Marcus often looks for dining establishments that provide networking opportunities, whether through private events or connections with other high-profile patrons.
+
+## Challenges
+- **Busy Schedule:** Marcus's entrepreneurial endeavors keep him busy, making it challenging to find dining experiences that align with his schedule. He values restaurants that offer flexibility and efficiency.
+- **Tech-Driven Dining:** While Marcus appreciates technological integration, he also faces challenges in finding restaurants that strike the right balance, ensuring that technology enhances rather than detracts from the dining experience.
+
+
