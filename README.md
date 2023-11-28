@@ -11,7 +11,7 @@
 ## Final Business Analysis - Due November 17 💡
 - [Analysis 📊](files/analysis.md)
 
-## Milestone ~ Figma, User Stories, Personas, Sales Funnel- Due November 27💡
+## Milestone - Due November 27💡
 - [Figma Designs 🎨](files/figma.md)
 - [User Stories and Epics 👥](files/epics.md)
 - [Personas 👤](files/persona.md)
