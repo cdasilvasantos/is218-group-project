@@ -13,6 +13,11 @@
 
 ## Milestone - Due November 27💡
 - [Figma Designs 🎨](files/figma.md)
+
+## Think Out Loud - Due November 29
+- [Think Out Loud Session💭](files/thinkoutloud.md)
+
+## Milestone - Due November 29
 - [User Stories and Epics 👥](files/epics.md)
 - [Personas 👤](files/persona.md)
 - [Sales Funnel💵](files/salesFunnel.md)
