@@ -1,12 +1,10 @@
 // components/Header.js
-import { Box, Heading } from '@chakra-ui/react';
+import styles from './Header.module.css';
 
-const Header = () => {
+export default function Header() {
   return (
-    <Box p={4} bg="tomato">
-      <Heading color="white">Luxcore Steakhouse</Heading>
-    </Box>
+    <header className={styles.header}>
+      {/* Navigation and logo */}
+    </header>
   );
-};
-
-export default Header;
+}
