@@ -4,7 +4,7 @@ export default function Navbar() {
         <div class="container">
             <div class="navbar">
                 <div class="logo">
-                    <a href="#section0">LuxCore</a>
+                    <a href="#hero">LuxCore</a>
                 </div>
                 <div class="navbar-toggler" onclick="toggleNavbar()">
                     <div class="hamburger">

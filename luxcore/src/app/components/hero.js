@@ -6,7 +6,7 @@ import {Button} from '@chakra-ui/react'
 export default function Hero() {
     return (
         <main>
-            <section className="banner">
+            <section id= "hero" className="banner">
                 <Image 
                     src={awesome} 
                     alt="Banner Image" 
