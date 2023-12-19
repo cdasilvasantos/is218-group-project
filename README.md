@@ -1,8 +1,8 @@
 # IS218/003 Group Project
 
 ## Team Members
-- **Chiara daSilva Santos** 🌟
-- **Michael Daniels** 🌟
+- **Chiara daSilva Santos - Designer** 🌟
+- **Michael Daniels-Developer** 🌟
 
 ### [Attendance 📅](attendance.md)
 
