@@ -8,7 +8,7 @@ const expectedLogoText = 'LuxCore';
 const expectedHeroTitle = 'Where culinary craftsmanship meets timeless elegance';
 const expectedHeroSubText = 'Join our members club for an all exclusive experience.';
 const expectedHeroLinkCount = 1;
-const expectedAboutTitle = ' Luxcore Steakhouse';
+const expectedAboutTitle = 'Luxcore Steakhouse';
 const expectedMetaDescription = 'Luxury steakhouse at its core';
 const expectedNavs = ['Menu', 'About', 'Club'];
 

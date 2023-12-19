@@ -46,7 +46,7 @@ export default function About() {
                 )}
 
                 {activeTab === 'membership' && (
-                    <section className="content membership">
+                    <section id ="membership" className="content membership">
                     <p>Join our exclusive C&M Members Club to experience the pinnacle of luxury dining. Membership offers priority reservations, access to members-only events, and a bespoke gastronomic concierge service. Embrace the world of culinary wonders and exceptional service that only Luxcore can offer. As a member, you'll enjoy a range of privileges including exclusive tasting events, personalized menu recommendations from our chefs, and invitations to special culinary workshops and gatherings.</p>
                     <p>Our Members Club is more than a loyalty program; it's a gateway to a community of culinary enthusiasts and a world of luxurious dining experiences. Membership is limited, ensuring personalized attention and an intimate atmosphere for all our esteemed members.</p>                        <a href="#contact-us" className="btn membership-btn">Enquire About Membership</a>
                     </section>
