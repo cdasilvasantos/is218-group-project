@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import steakImage from '../../../public/images/steak.png';
 import wineImage from '../../../public/images/wine.png';
-import '../path/to/modalScript';
+import './modalScript';
 
 export default function Menu() {
     // JavaScript code to handle modal toggle
