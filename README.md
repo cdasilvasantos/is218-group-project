@@ -2,22 +2,8 @@
 
 ## Team Members
 - **Chiara daSilva Santos - Designer** 🌟
-- **Michael Daniels-Developer** 🌟
+- **Michael Daniels - Developer** 🌟
 
-### [Attendance 📅](attendance.md)
+## [Luxcore Website 🌟](https://is218-group-project-bay.vercel.app/#contact-us)
 
-# Luxcore
-
-## Final Business Analysis - Due November 17 💡
-- [Analysis 📊](files/analysis.md)
-
-## Milestone - Due November 27💡
-- [Figma Designs 🎨](files/figma.md)
-
-## Think Out Loud - Due November 29
-- [Think Out Loud Session💭](files/thinkoutloud.md)
-
-## Milestone - Due November 29
-- [User Stories and Epics 👥](files/epics.md)
-- [Personas 👤](files/persona.md)
-- [Sales Funnel💵](files/salesFunnel.md)
+#### [Other Submissions 📌](files/submissions.md)
