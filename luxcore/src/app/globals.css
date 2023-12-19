@@ -644,7 +644,7 @@ footer p {
 }
 
 .content {
-  display: none; /* Initially hide all content */
+ 
   position: relative; /* Position relative for z-index */
   z-index: 2; /* Ensure content is above any background elements */
   font-family: 'Crimson Text', serif;
