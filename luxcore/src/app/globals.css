@@ -1,12 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Ephesis&family=Ruluko&family=Rye&display=swap');
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -15,13 +10,795 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: #FFF6EC;
+ }
+ 
+ header {
+  color: black;
+  background-color: #331B1B;
 }
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+
+/* Logo */
+.logo a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 2.5em; /* Increased font size */
+  font-family: 'Ephesis', cursive; /* Ephesis font for cursive style */
+}
+
+/* Hamburger Menu */
+.navbar-toggler {
+  display: none;
+  cursor: pointer;
+}
+
+.hamburger .line {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 5px 0;
+  transition: all 0.3s ease;
+}
+
+/* Navbar Links */
+.navbar-nav {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  align-items: center; /* Align items in line with the navbar */
+}
+
+.navbar-nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2em; /* Slightly larger font size */
+  padding: 5px 10px;
+  transition: color 0.3s ease;
+  font-family: 'Ephesis', cursive; /* Ephesis font for cursive style */
+}
+
+.navbar-nav a:hover {
+  color: #7a7a7a;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .navbar-toggler {
+      display: block;
+  }
+
+  .navbar-collapse {
+      display: none;
+      width: 100%;
+      background-color: #f8f8f8;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      padding: 20px 0;
+  }
+
+  .navbar-collapse.active {
+      display: block;
+  }
+
+  .navbar-nav {
+      flex-direction: column;
+      align-items: center; /* Center items in column layout */
+  }
+} 
+
+  .banner {
+    position: relative; /* Needed for Image component with layout='fill' */
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    align-items: center; /* Vertically center the content */
+    justify-content: center; /* Horizontally center the content */
+}
+.banner-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1; /* Places the image behind the call-to-action */
+}
+
+/* Call to Action Styling */
+.calltoaction {
+  background-color: rgba(79, 49, 49, 0.6); /* Semi-transparent black background */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 1; /* Ensures it's above the background image */
+}
+
+.calltoaction h1 {
+  font-family: 'Ephesis', cursive; /* Luxurious cursive font */
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.calltoaction p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+  font-family: 'Crimson Text', sans-serif;
+}
+
+
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .banner {
+      height: 50vh;
+  }
+
+  .calltoaction {
+      padding: 20px;
+      max-width: 90%;
+  }
+
+  .calltoaction h1 {
+      font-size: 2em;
+  }
+
+  .calltoaction p {
+      font-size: 1em;
+  }
+}
+
+@media (max-width: 480px) {
+  .banner {
+      height: 40vh;
+  }
+
+  .calltoaction h1 {
+      font-size: 1.8em;
+  }
+
+  .btn.about1 {
+      padding: 8px 16px;
+      font-size: 0.9em;
+      font-family: 'Crimson Text', serif;
+    }
+}
+
+.members:hover {
+  background: gray;
+  color: white;
+}
+
+.project1 h2 {
+  color: white;
+  font-family: 'Ephesis', serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 50px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.project1 .about-text {
+  color: #F8F8F8;
+  text-align: center;
+  font-family: 'Crimson Text', serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 200;
+  width: 900px;
+  margin-top: 100px;
+  margin-left: 30px;  
+  flex-shrink: 0;
+}
+
+/* gallery */
+
+
+
+ .steak, .wine {
+  padding: 40px;
+ }
+ 
+ .wine {
+  background-color: #FFF6EC;
+ }
+ 
+ h1, h2 {
+  color: #333;
+ }
+ 
+ footer {
+  padding: 20px;
+  background-color: #331B1B;
+  color: white;
+  text-align: center;
+ }
+
+ footer h1 {
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  font-family: 'Ephesis', cursive;
+ }
+
+ footer h3 {
+  text-align: center;
+  font-family: 'Ruluku', serif;
+ }
+
+ .about1 {
+  border-color: white;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.about1:hover {
+  background-color: gray;
+  color: white;
+}
+
+.menu {
+  border-color: white;
+  color: white;
+  margin-left: 100px;
+  margin-right: 10px;
+}
+
+.menu:hover {
+  background-color: gray;
+  color: white;
+}
+
+.contact {
+  border-color: white;
+  color: white;
+  margin-left: 100px;
+  margin-right: 10px;
+}
+
+.contact:hover {
+  background-color: gray;
+  color: white;
+}
+
+.members2 {
+  border-color: white;
+  color: white;
+  margin-left: 100px;
+  margin-right: 10px;
+}
+
+.members2:hover {
+  background: gray;
+  color: white;
+}
+
+footer p {
+  margin-top: 30px;
+}
+
+.discover h1 {
+  font-size: 60px;
+  font-weight: 80px;
+  text-align: center;
+  margin-top: 90px;
+  color: #6F1C11;
+  font-family: 'Rye', cursive;
+}
+
+.steak-image {
+  max-width: 100%;
+  max-height: 100%;
+  margin-left: 50px;
+}
+
+.steak {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 10fr 10fr 1fr;
+    column-gap: 50px;
+}
+
+.steak-section-top {
+  max-width: 100%;
+  max-height: 100%;
+  margin-top: 80px;
+  font-size: 30px;
+  text-align: center;
+  margin-left: 500px;
+  margin-bottom: -60px;
+  font-family: 'Rye', cursive;
+}
+.steak p{
+    font-size: 20px;
+    margin-bottom: 70px;
+    float: right;
+    font-family: 'Crimson Text', serif;
+}
+.steak p {
+    flex: 1;
+}
+
+.wine-image {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.wine {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 15fr 10fr 1fr;
+    column-gap: 50px;
+}
+
+.wine-section-top {
+  max-width: 100%;
+  max-height: 100%;
+  margin-top: 80px;
+  font-size: 30px;
+  text-align: center;
+  margin-right: 600px;
+  margin-bottom: -40px;
+  font-family: 'Rye', cursive;
+}
+.wine p{
+    margin-left: 80px;
+    font-size: 20px;
+    margin-bottom: 70px;
+    float: left;
+    font-family: 'Crimson Text', serif;
+}
+.wine p {
+    flex: 1;
+}
+/* Footer Styles */
+footer {
+  color: rgb(var(--foreground-rgb));
+  padding: 20px;
+  text-align: center;
+}
+
+footer h1, footer h3 {
+  color: #fff;
+}
+
+footer p {
+  color: #fff;
+}
+
+/* Button Styles */
+.btn {
+  font-family: 'Crimson Text', serif;
+  font-size: 1.5rem;
+  margin: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: transparent;
+  border: 2px solid #fff;
+  transition: background-color 0.3s;
+  /* ...other styles... */
+}
+
+.btn:hover {
+  background-color: #331B1B;
+}
+
+/* Mailchimp Form Styles */
+#mc_embed_signup {
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  margin: 20px auto;
+  max-width: 600px;
+  font-family: 'Crimson Text', serif;
+}
+
+#mc_embed_signup h2 {
+  color: #000;
+  margin-bottom: 15px;
+}
+
+.mc-field-group {
+  margin-bottom: 10px;
+}
+
+.mc-field-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+  font-size: 16px;
+}
+
+.mc-field-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #0f0e0e;
+  border-radius: 3px;
+  color:#333;
+}
+
+.button {
+  background-color: #331B1B;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  font-size: 16px;
+}
+
+.button:hover {
+  background-color: #9f896c;
+}
+
+.clear {
+  clear: both;
+}
+
+.indicates-required .asterisk {
+  color: #8b6528; /* Matching the button color */
+}
+
+.indicates-required {
+  color: black;
+}
+
+
+.art {
+  color: rgb(var(--foreground-rgb));
+  
+  font-family: 'Ruluko', sans-serif;
+  text-align: center;
+  padding: 50px;
+}
+
+.art-heading {
+  font-size: 2em;
+  font-family: 'Rye', cursive;
+  margin: 0;
+}
+
+.art-images-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.art-image-wrapper {
+  overflow: hidden; /* Clip the images to their container */
+}
+
+/* Testimonial cards styling */
+.testimonial-section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px; /* adds space between cards */
+  margin-top: 40px;
+}
+
+.testimonial-card {
+  background-color: #331B1B;
+  color: #fff; /* Dark text for contrast */
+  padding: 30px;
+  border-radius: 16px; /* Rounded corners for a modern look */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  max-width: 340px; /* Maximum width of cards */
+  width: 100%; /* Makes it responsive */
+  box-sizing: border-box;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions for hover effects */
+}
+
+.testimonial-card:hover {
+  transform: translateY(-5px); /* Slightly raise the card on hover */
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15); /* Increase shadow on hover */
+}
+
+.testimonial-quote {
+  font-style: italic;
+  margin-bottom: 15px; /* Spacing between quote and author */
+  font-size: 1rem; /* Adjust font size as necessary */
+}
+
+.testimonial-author {
+  font-weight: 600; /* Bold for the author name */
+  text-align: right;
+  margin-top: 20px; /* Space above the author's name */
+  font-size: 0.85rem; /* Smaller font size for the author's title */
+  color: #fff; /* Slightly lighter color for the author's title */
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 1024px) {
+  .testimonial-section {
+      flex-direction: column;
+      align-items: center;
+      font-family: 'Ruluko', sans-serif;
+  }
+
+  .testimonial-card {
+      width: 80%; /* Adjust width on smaller screens */
+  }
+}
+
+/* Testimonial header styling */
+.testimonial-header {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: 'Ruluko', sans-serif;
+  
+}
+
+.testimonial-header h2 {
+  font-size: 2.25rem; /* Larger font size for the header */
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-family: 'Rye', cursive;
+}
+
+.testimonial-header p {
+  font-size: 1rem; /* Adjust the font size as necessary */
+  margin-bottom: 20px;
+   color: #331B1B; ;
+   font-family: 'Ruluko', sans-serif;
+}
+
+.join-club-btn {
+  background-color: #fff;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.join-club-btn:hover {
+  background-color: #513f3f; ;
+}
+
+/* About Page Styles */
+.about-container {
+  padding: 50px;
+  
+  color: #333; /* Dark text for contrast */
+  font-family: 'Ruluko', sans-serif;
+}
+
+
+.about-header {
+  text-align: center;
+  font-size: 3rem;
+  color: #333;
+  margin-bottom: 40px;
+  font-weight: bold;
+  font-family: 'Rye', cursive;
+}
+
+.tab-navigation {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  font-family: 'Ruluko', cursive;
+}
+
+.tab {
+  padding: 10px 20px;
+  border: none;
+  background-color: transparent;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: color 0.3s;
+  margin: 0 10px;
+  font-family: 'Ruluko', cursive;
+}
+
+.tab:hover, .tab.active {
+  color: #c59d5f; /* Highlight color */
+  border-bottom: 2px solid #c59d5f; /* Underline for active tab */
+}
+
+.tab-content {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  color: #333;
+  transform: translateY(-10px); /* Slight lift effect */
+  max-width: 600px; /* Adjust width for more square-like appearance */
+  margin: auto; /* Center align the box */
+  font-family: 'Ruluko', sans-serif;
+}
+
+.content {
+  display: none; /* Initially hide all content */
+  position: relative; /* Position relative for z-index */
+  z-index: 2; /* Ensure content is above any background elements */
+  font-family: 'Crimson Text', serif;
+}
+
+.content p {
+  line-height: 1.6; /* Improve readability */
+  margin-bottom: 20px; /* Spacing between paragraphs */
+  font-family: 'Crimson Text', serif;
+}
+
+.btn.membership-btn {
+  display: block;
+  margin-top: 20px;
+  padding: 10px 25px;
+  background-color: #331B1B;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  font-family: 'Ruluko', cursive;
+}
+
+.btn.membership-btn:hover {
+  background-color: #b3864f;
+}
+
+.menu-container {
+  text-align: center;
+  padding: 50px;
+  /* ...other styles... */
+}
+
+.menu-header {
+  font-family: 'Rye', cursive;
+  font-size: 3rem;
+  margin-bottom: 30px;
+  /* ...other styles... */
+}
+
+.menu-categories button {
+  font-family: 'Crimson Text', serif;
+  font-size: 1.5rem;
+  margin: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: transparent;
+  border: 2px solid #331B1B;
+  transition: background-color 0.3s;
+  /* ...other styles... */
+}
+
+.menu-categories button:hover {
+  background-color: #331B1B;
+  color: white;
+}
+
+.menu-modal {
+  position: fixed;
+  background-color: #FFF6EC;
+  border-radius: 20px;
+  padding: 20px;
+  z-index: 1000;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: auto; /* Auto width based on content */
+  max-width: 90%; /* Maximum width */
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); /* Center the modal */
+  overflow-y: auto;
+}
+
+.menu-modal h2 {
+  color: #331B1B;
+  margin-bottom: 20px;
+  font-family: 'Rye', cursive;
+}
+
+.menu-modal ul {
+  text-align: left;
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+  font-family: 'Crimson Text', serif;
+}
+
+.menu-modal li {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.menu-modal img {
+  display: block; /* Makes the image a block-level element */
+  max-width: 300px; /* Adjust as needed */
+  height: auto;
+  margin: 20px auto; /* Top and bottom margin 20px, left and right auto */
+  border-radius: 10px;
+}
+
+
+.closeButton {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #331B1B;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Ruluko', sans-serif;
+}
+
+.closeButton:hover {
+  background-color: #9f896c;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .menu-modal {
+      width: 80%; /* Adjust the width on smaller screens */
+      /* Keep the modal centered */
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+}
+
+/* Responsive design for the navbar */
+@media (max-width: 768px) {
+  .navbar-toggler {
+      display: block;
+  }
+
+  .navbar-collapse {
+      display: none; /* Hidden by default on small screens */
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background-color: #331B1B;
+      padding: 10px 0;
+  }
+
+  .navbar-collapse.active {
+      display: block; /* Show when active */
+  }
+
+  .navbar-nav {
+      flex-direction: column;
+      align-items: center;
+  }
+}
+
