@@ -31,11 +31,11 @@ export default function CookieBanner() {
         <div className={`my-10 mx-auto max-w-max md:max-w-screen-sm
                         fixed bottom-0 left-0 right-0 
                         flex px-3 md:px-4 py-3 justify-between items-center flex-col sm:flex-row gap-4  
-                        bg-gray-700 rounded-lg shadow`}>
+                        bg-white rounded-lg shadow`}>
 
             <div className='text-center'>
                 <Link href="/info/cookies">
-                    <p>We use <span className='font-bold text-sky-400'>cookies</span> on our site.</p>
+                    <p>We use <span className='font-bold text-red-950'>cookies</span> on our site.</p>
                 </Link>
             </div>
 
