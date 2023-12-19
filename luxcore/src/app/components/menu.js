@@ -4,6 +4,7 @@ import Image from 'next/image';
 import steakImage from '../../../public/images/steak.png';
 import wineImage from '../../../public/images/wine.png';
 
+
 export default function Menu() {
     // State to manage modal visibility
     const [isSteakModalVisible, setSteakModalVisible] = useState(false);
