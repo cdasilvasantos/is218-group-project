@@ -24,7 +24,11 @@ export default function Menu() {
             {isSteakModalVisible && (
                 <div className="menu-modal">
                     <h2>Steak Selection</h2>
-                    {/* Steak items */}
+                    <ul>
+                    <li>Ribeye - A tender and flavorful classic cut, $35</li>
+                    <li>Filet Mignon - Lean and succulent, our signature cut, $40</li>
+                    <li>Strip Steak - Perfectly marbled, $38</li>
+                </ul>
                     <Image src={steakImage} alt="Signature Filet Mignon" layout="responsive" />
                     <button onClick={() => setSteakModalVisible(false)}>Close</button>
                 </div>
@@ -34,8 +38,11 @@ export default function Menu() {
             {isWineModalVisible && (
                 <div className="menu-modal">
                     <h2>Wine Selection</h2>
-                    {/* Wine items */}
-                    <Image src={wineImage} alt="Featured Cabernet Sauvignon" layout="responsive" />
+                    <ul>
+                    <li>Chardonnay - Fruity and rich, $15/glass</li>
+                    <li>Pinot Noir - Light and versatile, $16/glass</li>
+                    <li>Cabernet Sauvignon - Bold and spicy, featured selection, $18/glass</li>
+                </ul>                    <Image src={wineImage} alt="Featured Cabernet Sauvignon" layout="responsive" />
                     <button onClick={() => setWineModalVisible(false)}>Close</button>
                 </div>
             )}
